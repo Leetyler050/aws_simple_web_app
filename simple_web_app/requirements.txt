@@ -1,1 +1,5 @@
 requests
+Flask
+serverless-wsgi
+pandas
+plotly
