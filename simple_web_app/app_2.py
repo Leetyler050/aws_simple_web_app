@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 def index():
     #return '<h1> Hello Puppy!</h1>'
-    return render_template('basic.html')
+    return render_template('basic_2.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
