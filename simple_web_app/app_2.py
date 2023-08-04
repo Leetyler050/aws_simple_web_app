@@ -1,5 +1,7 @@
 from flask import Flask, jsonify,render_template
 
+
+#app = Flask(__name__, template_folder='template')
 app = Flask(__name__)
 
 @app.route('/hello')
@@ -8,11 +10,10 @@ app = Flask(__name__)
 
 def index():
     #return '<h1> Hello Puppy!</h1>'
-    return render_template('basic_2.html')
+    return render_template('basic_form.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
-
 
 # import pandas as pd
 # import json
