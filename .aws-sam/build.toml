@@ -5,7 +5,7 @@ codeuri = "/Users/tyler.lee/Documents/Udemy_courses/test_aws_simple_web_app/simp
 runtime = "python3.9"
 architecture = "x86_64"
 handler = "lambda_handler.handler"
-manifest_hash = "35cff7699cf47c938d063c074ef286d9"
+manifest_hash = "531b888eaad4343afe495f653259840f"
 packagetype = "Zip"
 functions = ["HelloWorldFunction"]
 

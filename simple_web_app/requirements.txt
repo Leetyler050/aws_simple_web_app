@@ -1,5 +1,7 @@
 requests
 Flask
+Flask-WTF
+WTForms
 serverless-wsgi
-pandas
-plotly
+#pandas
+#plotly
